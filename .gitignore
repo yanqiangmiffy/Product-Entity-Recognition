@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+.idea
+ner-camp/code/3-bilstm-crf/bilstm_crf_pytorch/dataset/cluener
+ner-camp/code/3-bilstm-crf/NER-BiLSTM-CRF-PyTorch
+ner-camp/code/3-bilstm-crf/Chinese_NER_pytorch/model
+ner-camp/code/3-bilstm-crf/NER-BiLSTM-CRF-PyTorch/src/models
+ner-camp/code/3-bilstm-crf/named-entity-recognition/outputs
+ner-camp/code/2-crf/CRF058/chinese
+ner-camp/code/2-crf/sklearn_crf/data
+ner-camp/code/2-crf/CRF058/chinese/train.rst
+ner-camp/code/2-crf/CRF058/chinese/train.data
+ner-camp/code/2-crf/CRF058/chinese/test.data
+competition_code/data
+competition_code/product_crf_model.joblib
+competition_code/model
