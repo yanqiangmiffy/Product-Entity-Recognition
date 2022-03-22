@@ -13,3 +13,4 @@ ner-camp/code/2-crf/CRF058/chinese/test.data
 competition_code/data
 competition_code/product_crf_model.joblib
 competition_code/model
+competition_code/GAIIC_track2_baseline
