@@ -6,3 +6,4 @@
 | CRF | 0.77 | 0.748 |
 | CRF:2ngrams | 0.78 | 0.758 |
 | Bert | 0.70 | 0.704 |
+| chinese-roberta=wwm:GP | 0.70 | 0.791 |
