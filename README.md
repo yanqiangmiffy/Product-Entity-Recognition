@@ -37,6 +37,58 @@
 | CRF | 0.77 | 0.748 |
 
 代码链接：https://github.com/yanqiangmiffy/Product-Entity-Recognition/tree/master/competition_code
+### 其他大佬方案
+- [DataArk-GAIIC2022-Product-Title-Entity-Recognition-Baseline 线上0.801](https://github.com/DataArk/GAIIC2022-Product-Title-Entity-Recognition-Baseline)
+- [xmxoxo 思路分享](https://www.heywhale.com/org/gaiic2022/competition/forum/623926c7b6b6610017eb012e)
+```text
+以下是本人的一点尝试思路分享给大家，仅供参考。
+
+不同模型的对比：
+BERT+CRF
+参考地址：https://github.com/bojone/bert4keras/tree/master/examples/task_sequence_labeling_ner_crf.py
+
+BERT+BiLSTM+CRF
+
+BERT+双指针
+
+BERT+GlobalPointer
+参考地址：https://github.com/bojone/GlobalPointer
+
+找到最优的模型，在此基础上再做提升：
+换 roberta_wwm；roberta_wwm_large
+加对抗训练
+参考地址：https://github.com/bojone/bert4keras/tree/master/examples/task_iflytek_adversarial_training.py
+
+加数据增强EDA
+参考地址： https://blog.csdn.net/hero00e/article/details/89523970
+
+预训练模型
+
+参考地址：https://github.com/bojone/bert4keras/tree/master/pretraining
+```
+- [bert研究院:命名实体识别技术bert,bert+crf等优化方案](https://aistudio.baidu.com/aistudio/projectdetail/3556204?contributionType=1)
+- [虎牙181469:LEBERT-pytorch，根据作者源码改装成本大赛格式](https://www.heywhale.com/org/gaiic2022/competition/forum/6224963cfd71770017f319b9)
+```text
+个人实验了半天，发现成绩没有比BERT+CRF好，可能是数据比较少的原因，
+有兴趣的朋友可以进来看看，Star一下。
+
+目前成绩 ：
+BERT+CRF：73.91
+BERT_SPAN：74.31
+LEBERT+CRF: 73.13
+
+用到的词向量与论文中提到的相同，可以去https://ai.tencent.com/ailab/nlp/en/download.html 这里下载，我下载的small版本，如果论文里的score为真实的，我发布的代码一定可以拿到很高分。
+
+论文地址：https://arxiv.org/pdf/2105.07148v3.pdf
+github链接为：https://github.com/fuxuelinwudi/LEBERT_pytorch_copied_from_author
+后续我还会发布BERT+MRC、FLAT等等之前的SOTA模型。
+
+tips：
+
+1.BERT+CRF版本的github链接为：https://github.com/fuxuelinwudi/BERT_CRF_NER_torch
+2.BERT+SPAN版本的github链接为：https://github.com/fuxuelinwudi/BERT_SPAN_NER_torch
+3.可偏旁特征与拼音特征：用pypinyin包，和https://github.com/WenDesi/Chinese_radical 来做
+```
 
 ### 关于ChallengeHub
 
