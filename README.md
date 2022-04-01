@@ -1,6 +1,6 @@
 ## 命名实体识别
 
-### CH&和鲸训练营：零基础入门实体识别
+### 1 CH&和鲸训练营：零基础入门实体识别
 ![](ner-camp/images/零基础入门实体识别.jpeg)
 > 免费活动链接:https://www.heywhale.com/home/activity/detail/6216f74572960d0017d5e691
 
@@ -25,7 +25,7 @@
 ```
 课程资料：https://github.com/yanqiangmiffy/Product-Entity-Recognition/tree/master/ner-camp
 
-### GAIIC2022：商品标题实体识别
+### 2 GAIIC2022：商品标题实体识别
 > 比赛链接:https://www.heywhale.com/home/competition/620b34ed28270b0017b823ad/
 #### 赛题任务
 >京东商品标题包含了商品的大量关键信息，商品标题实体识别是NLP应用中的一项核心基础任务，能为多种下游场景所复用，从标题文本中准确抽取出商品相关实体能够提升检索、推荐等业务场景下的用户体验和平台效率。本赛题要求选手使用模型抽取出商品标题文本中的实体。
@@ -37,7 +37,7 @@
 | CRF | 0.77 | 0.748 |
 
 代码链接：https://github.com/yanqiangmiffy/Product-Entity-Recognition/tree/master/competition_code
-### 其他大佬方案
+### 3 其他大佬方案
 - [DataArk-GAIIC2022-Product-Title-Entity-Recognition-Baseline 线上0.801](https://github.com/DataArk/GAIIC2022-Product-Title-Entity-Recognition-Baseline)
 - [xmxoxo 思路分享](https://www.heywhale.com/org/gaiic2022/competition/forum/623926c7b6b6610017eb012e)
 ```text
@@ -90,7 +90,7 @@ tips：
 3.可偏旁特征与拼音特征：用pypinyin包，和https://github.com/WenDesi/Chinese_radical 来做
 ```
 
-### 关于ChallengeHub
+### 4 关于ChallengeHub
 
 由算法与数据分析小伙伴们一起创建，获得数十次比赛top奖项，成员来自国内大厂、中科院研究所等，可帮忙内推～。每日给小伙伴带来机器学习、NLP、数据分析知识分享以及竞赛干货，职场经验。
 欢迎大家关注，也欢迎大家进入我们的NLP技术交流群，可以添加我的个人微信联系方式
