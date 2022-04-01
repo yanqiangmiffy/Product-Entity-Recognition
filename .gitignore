@@ -14,3 +14,4 @@ competition_code/data
 competition_code/product_crf_model.joblib
 competition_code/model
 competition_code/GAIIC_track2_baseline
+competition_code/W2NER/data
